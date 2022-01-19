@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		ED733E892797FC9E00F12F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED733E882797FC9E00F12F40 /* AppDelegate.swift */; };
 		ED733E8B2797FC9E00F12F40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED733E8A2797FC9E00F12F40 /* SceneDelegate.swift */; };
-		ED733E8D2797FC9E00F12F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED733E8C2797FC9E00F12F40 /* ViewController.swift */; };
-		ED733E902797FC9E00F12F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED733E8E2797FC9E00F12F40 /* Main.storyboard */; };
-		ED733E922797FCA000F12F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED733E912797FCA000F12F40 /* Assets.xcassets */; };
-		ED733E952797FCA000F12F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED733E932797FCA000F12F40 /* LaunchScreen.storyboard */; };
 		ED733EA02797FCA000F12F40 /* AlbumifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED733E9F2797FCA000F12F40 /* AlbumifyTests.swift */; };
 		ED733EAA2797FCA000F12F40 /* AlbumifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED733EA92797FCA000F12F40 /* AlbumifyUITests.swift */; };
 		ED733EAC2797FCA000F12F40 /* AlbumifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED733EAB2797FCA000F12F40 /* AlbumifyUITestsLaunchTests.swift */; };
+		EDE0714F27996A5000A23576 /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0714527996A5000A23576 /* AlbumListViewController.swift */; };
+		EDE0715027996A5000A23576 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0714627996A5000A23576 /* Album.swift */; };
+		EDE0715127996A5000A23576 /* Album.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE0714727996A5000A23576 /* Album.storyboard */; };
+		EDE0715227996A5100A23576 /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0714927996A5000A23576 /* AlbumDetailsViewController.swift */; };
+		EDE0715327996A5100A23576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE0714B27996A5000A23576 /* Assets.xcassets */; };
+		EDE0715427996A5100A23576 /* albums.json in Resources */ = {isa = PBXBuildFile; fileRef = EDE0714C27996A5000A23576 /* albums.json */; };
+		EDE0715527996A5100A23576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE0714D27996A5000A23576 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +42,19 @@
 		ED733E852797FC9E00F12F40 /* Albumify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Albumify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED733E882797FC9E00F12F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED733E8A2797FC9E00F12F40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED733E8C2797FC9E00F12F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED733E8F2797FC9E00F12F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED733E912797FCA000F12F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ED733E942797FCA000F12F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED733E962797FCA000F12F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED733E9B2797FCA000F12F40 /* AlbumifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbumifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED733E9F2797FCA000F12F40 /* AlbumifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumifyTests.swift; sourceTree = "<group>"; };
 		ED733EA52797FCA000F12F40 /* AlbumifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbumifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED733EA92797FCA000F12F40 /* AlbumifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumifyUITests.swift; sourceTree = "<group>"; };
 		ED733EAB2797FCA000F12F40 /* AlbumifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDE0714527996A5000A23576 /* AlbumListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
+		EDE0714627996A5000A23576 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		EDE0714827996A5000A23576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Album.storyboard; sourceTree = "<group>"; };
+		EDE0714927996A5000A23576 /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
+		EDE0714B27996A5000A23576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE0714C27996A5000A23576 /* albums.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = albums.json; sourceTree = "<group>"; };
+		EDE0714E27996A5000A23576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,8 @@
 		ED733E872797FC9E00F12F40 /* Albumify */ = {
 			isa = PBXGroup;
 			children = (
-				ED733E882797FC9E00F12F40 /* AppDelegate.swift */,
-				ED733E8A2797FC9E00F12F40 /* SceneDelegate.swift */,
-				ED733E8C2797FC9E00F12F40 /* ViewController.swift */,
-				ED733E8E2797FC9E00F12F40 /* Main.storyboard */,
-				ED733E912797FCA000F12F40 /* Assets.xcassets */,
-				ED733E932797FCA000F12F40 /* LaunchScreen.storyboard */,
+				EDE0715627996A6000A23576 /* Code */,
+				EDE0714A27996A5000A23576 /* Resources */,
 				ED733E962797FCA000F12F40 /* Info.plist */,
 			);
 			path = Albumify;
@@ -125,6 +127,45 @@
 				ED733EAB2797FCA000F12F40 /* AlbumifyUITestsLaunchTests.swift */,
 			);
 			path = AlbumifyUITests;
+			sourceTree = "<group>";
+		};
+		EDE0714327996A5000A23576 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EDE0714427996A5000A23576 /* Album */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EDE0714427996A5000A23576 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				EDE0714527996A5000A23576 /* AlbumListViewController.swift */,
+				EDE0714627996A5000A23576 /* Album.swift */,
+				EDE0714727996A5000A23576 /* Album.storyboard */,
+				EDE0714927996A5000A23576 /* AlbumDetailsViewController.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		EDE0714A27996A5000A23576 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDE0714B27996A5000A23576 /* Assets.xcassets */,
+				EDE0714C27996A5000A23576 /* albums.json */,
+				EDE0714D27996A5000A23576 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EDE0715627996A6000A23576 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				EDE0714327996A5000A23576 /* Scenes */,
+				ED733E882797FC9E00F12F40 /* AppDelegate.swift */,
+				ED733E8A2797FC9E00F12F40 /* SceneDelegate.swift */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +272,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED733E952797FCA000F12F40 /* LaunchScreen.storyboard in Resources */,
-				ED733E922797FCA000F12F40 /* Assets.xcassets in Resources */,
-				ED733E902797FC9E00F12F40 /* Main.storyboard in Resources */,
+				EDE0715427996A5100A23576 /* albums.json in Resources */,
+				EDE0715527996A5100A23576 /* LaunchScreen.storyboard in Resources */,
+				EDE0715327996A5100A23576 /* Assets.xcassets in Resources */,
+				EDE0715127996A5000A23576 /* Album.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED733E8D2797FC9E00F12F40 /* ViewController.swift in Sources */,
 				ED733E892797FC9E00F12F40 /* AppDelegate.swift in Sources */,
+				EDE0714F27996A5000A23576 /* AlbumListViewController.swift in Sources */,
+				EDE0715227996A5100A23576 /* AlbumDetailsViewController.swift in Sources */,
 				ED733E8B2797FC9E00F12F40 /* SceneDelegate.swift in Sources */,
+				EDE0715027996A5000A23576 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,18 +341,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ED733E8E2797FC9E00F12F40 /* Main.storyboard */ = {
+		EDE0714727996A5000A23576 /* Album.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ED733E8F2797FC9E00F12F40 /* Base */,
+				EDE0714827996A5000A23576 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Album.storyboard;
 			sourceTree = "<group>";
 		};
-		ED733E932797FCA000F12F40 /* LaunchScreen.storyboard */ = {
+		EDE0714D27996A5000A23576 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ED733E942797FCA000F12F40 /* Base */,
+				EDE0714E27996A5000A23576 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -443,7 +487,7 @@
 				INFOPLIST_FILE = Albumify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Album;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +514,7 @@
 				INFOPLIST_FILE = Albumify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Album;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

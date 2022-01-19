@@ -1,0 +1,63 @@
+{
+    "albums": [
+        {
+            "artist": "Green Day",
+            "title": "Dookie",
+            "year": "1994",
+            "tracks": [
+                "Burnout",
+                "Having a Blast",
+                "Chump",
+                "Longview",
+                "Welcome to Paradise",
+                "Pulling Teeth",
+                "Basket Case",
+                "She",
+                "Sassafras Roots",
+                "When I Come Around",
+                "Coming Clean",
+                "Emenius Sleepus",
+                "In the End",
+                "F.O.D"
+            ]
+        },
+        {
+            "artist": "NoFX",
+            "title": "So Long and Thanks for All the Shoes",
+            "year": "1997",
+            "tracks": [
+                "It's My Job to Keep Punk Rock Elite",
+                "Kids of the K-Hole",
+                "Murder the Government",
+                "Monosyllabic Girl",
+                "180 Degrees",
+                "All His Suits Are Torn",
+                "All Outta Angst",
+                "I'm Telling Tim",
+                "Champs Elysées",
+                "Dad's Bad News",
+                "Kill Rock Stars",
+                "Eat the Meek",
+                "The Desperation's Gone",
+                "Flossing a Dead Horse",
+                "Quart in Session",
+                "Falling in Love"
+            ]
+        },
+        {
+            "artist": "Boston",
+            "title": "Boston",
+            "year": "1976",
+            "tracks": [
+                "More Than a Feeling",
+                "Peace of Mind",
+                "Foreplay/Long Time",
+                "Rock & Roll Band",
+                "Smokin'",
+                "Hitch a Ride",
+                "Let Me Take You Home Tonight",
+                "It's My Job to Keep Punk Rock Elite"
+            ]
+        }
+    ]
+}
